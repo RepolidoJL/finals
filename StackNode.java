@@ -3,7 +3,7 @@ public class StackNode {
    private int count;
 
  
-   public StackArray(int size) {
+   public StackNode(int size) {
       if (size > 50 || size < 5) {
          size = 10;
       }
