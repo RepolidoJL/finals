@@ -1,9 +1,8 @@
-public class StackNode {
-   private Object[] items;
+public class StackArray[] items;
    private int count;
 
  
-   public StackNode(int size) {
+   public StackArray(int size) {
       if (size > 50 || size < 5) {
          size = 10;
       }
