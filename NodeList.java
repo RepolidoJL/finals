@@ -1,14 +1,14 @@
-public class NodeList {
+public class MyArrayList {
     private Object[] items;
     private int count;
     
     // Default constructor with initial size of 10
-    NodeList() {
+    MyArrayList() {
         this(10); 
     }
     
     // Constructor with a custom size (between 5 and 50)
-    NodeList(int size) {
+    MyArrayList(int size) {
         if(size < 5 || size > 50) {
             items = new Object[10];
         } else {
